@@ -19,8 +19,8 @@ mkdir -p outdir
 #toolchain , custom build_user , custom build_host , arch
 export ARCH=arm
 export ARCH_MTK_PLATFORM=mt6735
-export CROSS_COMPILE=/home/zac6ix/nana/woods/arm-eabi-4.9/bin/arm-eabi-
-export KBUILD_BUILD_USER="izaqKull"
+export CROSS_COMPILE=$(pwd)/gcc-linaro-7.3/bin/arm-eabi-
+export KBUILD_BUILD_USER="mhdzumair"
 export KBUILD_BUILD_HOST="DesenseInc"
 
 
